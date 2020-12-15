@@ -16,10 +16,10 @@ spring:
         git:
           uri: https://github.com/IgorCreator/spring-cloud-developer-experiments.git
           username: IgorCreator
-          password: Asomadinov3041
+          password: SecretPass
           proxy:
             https:
-              host: http.proxy.fmr.com
-              port: '8000'
+              host: proxy.name
+              port: 'port'
           search-paths:
             - 'station*'
